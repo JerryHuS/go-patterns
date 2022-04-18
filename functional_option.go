@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-//Addr,Port为必须参数，而其他为可选参数
+// Server Addr,Port为必须参数，而其他为可选参数
 type Server struct {
 	Addr     string
 	Port     int
@@ -14,7 +14,7 @@ type Server struct {
 	Timeout  time.Duration
 }
 
-//函数类型
+// Option 函数类型
 type Option func(*Server)
 
 func Protocol(p string) Option {
@@ -35,7 +35,7 @@ func Timeout(timeout time.Duration) Option {
 	}
 }
 
-//server初始化
+// NewServer server初始化
 func NewServer(addr string, port int, option ...Option) (*Server, error) {
 	svr := Server{
 		Addr:     addr,

@@ -1,7 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="872d777d-2676-4c98-ad5f-efe8dea47fff" name="Default Changelist" comment="" />
+    <list default="true" id="872d777d-2676-4c98-ad5f-efe8dea47fff" name="Default Changelist" comment="README.md">
+      <change afterPath="$PROJECT_DIR$/atomic/atomic.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/context.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generics.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go1.18/generic.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goroutine.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map_reduce.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pipeline.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/con.tmp.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/gen.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/generation.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/visitor.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/go-patterns.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/go-patterns.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/project_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/project_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functional_option.go" beforeDir="false" afterPath="$PROJECT_DIR$/functional_option.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +53,16 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" path="$PROJECT_DIR$/../go1.16" />
+  <component name="GOROOT" url="file://$PROJECT_DIR$/../go1.18" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="26XQcfhrOB2WjpdorKlY24wvjZM" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -23,9 +71,18 @@
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.format.on.save.advertiser.fired" value="true" />
+    <property name="go.formatter.settings.were.checked" value="true" />
     <property name="go.import.settings.migrated" value="true" />
+    <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="go.watchers.conflict.with.on.save.actions.check.performed" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -33,66 +90,89 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="go.sdk" />
   </component>
-  <component name="RunManager" selected="Go Build.go build error.go">
-    <configuration name="go build base.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/template" />
+      <recent name="$PROJECT_DIR$/tmp" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build goroutine.go">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="go-patterns" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build generic.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-patterns" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/base.go" />
       <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/go1.18/generic.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build error.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build generics.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-patterns" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/error.go" />
       <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/generics.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build xor.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build go-patterns" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-patterns" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/xor.go" />
+      <package value="go-patterns" />
       <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/pipeline.go" />
       <method v="2" />
     </configuration>
-    <configuration name="BenchmarkXorEncode in xor_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go build goroutine.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-patterns" />
       <working_directory value="$PROJECT_DIR$" />
-      <framework value="gobench" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/xor_test.go" />
-      <pattern value="^\QBenchmarkXorEncode\E$" />
+      <filePath value="$PROJECT_DIR$/goroutine.go" />
       <method v="2" />
     </configuration>
-    <configuration name="BenchmarkXorEncode in " type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go build pipeline.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-patterns" />
       <working_directory value="$PROJECT_DIR$" />
-      <framework value="gobench" />
-      <kind value="PACKAGE" />
+      <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/xor_test.go" />
-      <pattern value="^\QBenchmarkXorEncode\E$" />
+      <filePath value="$PROJECT_DIR$/pipeline.go" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="go-patterns" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build base.go" />
-      <item itemvalue="Go Build.go build xor.go" />
-      <item itemvalue="Go Build.go build error.go" />
-      <item itemvalue="Go Test.BenchmarkXorEncode in " />
-      <item itemvalue="Go Test.BenchmarkXorEncode in xor_test.go" />
+      <item itemvalue="Go Build.go build generic.go" />
+      <item itemvalue="Go Build.go build go-patterns" />
+      <item itemvalue="Go Build.go build pipeline.go" />
+      <item itemvalue="Go Build.go build generics.go" />
+      <item itemvalue="Go Build.go build goroutine.go" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build error.go" />
-        <item itemvalue="Go Build.go build xor.go" />
-        <item itemvalue="Go Test.BenchmarkXorEncode in xor_test.go" />
-        <item itemvalue="Go Test.BenchmarkXorEncode in " />
-        <item itemvalue="Go Build.go build base.go" />
+        <item itemvalue="Go Build.go build goroutine.go" />
+        <item itemvalue="Go Build.go build go-patterns" />
+        <item itemvalue="Go Build.go build generics.go" />
+        <item itemvalue="Go Build.go build generic.go" />
+        <item itemvalue="Go Build.go build pipeline.go" />
       </list>
     </recent_temporary>
   </component>
@@ -100,50 +180,22 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="484" y="191" width="1071" height="730" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1647602204506">
-      <screen x="0" y="25" width="1792" height="1017" />
-    </state>
-    <state x="484" y="191" width="1071" height="730" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1792.1017@0.25.1792.1017" timestamp="1647602204506" />
-    <state width="1750" height="228" key="GridCell.Tab.0.bottom" timestamp="1648016756539">
-      <screen x="0" y="25" width="1792" height="1024" />
-    </state>
-    <state width="1750" height="290" key="GridCell.Tab.0.bottom/0.25.1792.1010@0.25.1792.1010" timestamp="1647588380242" />
-    <state width="1750" height="288" key="GridCell.Tab.0.bottom/0.25.1792.1013@0.25.1792.1013" timestamp="1647590873976" />
-    <state width="1750" height="317" key="GridCell.Tab.0.bottom/0.25.1792.1015@0.25.1792.1015" timestamp="1647830195197" />
-    <state width="1750" height="317" key="GridCell.Tab.0.bottom/0.25.1792.1017@0.25.1792.1017" timestamp="1647602485881" />
-    <state width="1750" height="317" key="GridCell.Tab.0.bottom/0.25.1792.1019@0.25.1792.1019" timestamp="1647602447355" />
-    <state width="1750" height="177" key="GridCell.Tab.0.bottom/0.25.1792.1021@0.25.1792.1021" timestamp="1647597814005" />
-    <state width="1750" height="228" key="GridCell.Tab.0.bottom/0.25.1792.1024@0.25.1792.1024" timestamp="1648016756539" />
-    <state width="1750" height="228" key="GridCell.Tab.0.center" timestamp="1648016756538">
-      <screen x="0" y="25" width="1792" height="1024" />
-    </state>
-    <state width="1750" height="290" key="GridCell.Tab.0.center/0.25.1792.1010@0.25.1792.1010" timestamp="1647588380240" />
-    <state width="1750" height="288" key="GridCell.Tab.0.center/0.25.1792.1013@0.25.1792.1013" timestamp="1647590873976" />
-    <state width="1750" height="317" key="GridCell.Tab.0.center/0.25.1792.1015@0.25.1792.1015" timestamp="1647830195196" />
-    <state width="1750" height="317" key="GridCell.Tab.0.center/0.25.1792.1017@0.25.1792.1017" timestamp="1647602485880" />
-    <state width="1750" height="317" key="GridCell.Tab.0.center/0.25.1792.1019@0.25.1792.1019" timestamp="1647602447355" />
-    <state width="1750" height="177" key="GridCell.Tab.0.center/0.25.1792.1021@0.25.1792.1021" timestamp="1647597814004" />
-    <state width="1750" height="228" key="GridCell.Tab.0.center/0.25.1792.1024@0.25.1792.1024" timestamp="1648016756538" />
-    <state width="1750" height="228" key="GridCell.Tab.0.left" timestamp="1648016756538">
-      <screen x="0" y="25" width="1792" height="1024" />
-    </state>
-    <state width="1750" height="290" key="GridCell.Tab.0.left/0.25.1792.1010@0.25.1792.1010" timestamp="1647588380240" />
-    <state width="1750" height="288" key="GridCell.Tab.0.left/0.25.1792.1013@0.25.1792.1013" timestamp="1647590873975" />
-    <state width="1750" height="317" key="GridCell.Tab.0.left/0.25.1792.1015@0.25.1792.1015" timestamp="1647830195196" />
-    <state width="1750" height="317" key="GridCell.Tab.0.left/0.25.1792.1017@0.25.1792.1017" timestamp="1647602485879" />
-    <state width="1750" height="317" key="GridCell.Tab.0.left/0.25.1792.1019@0.25.1792.1019" timestamp="1647602447354" />
-    <state width="1750" height="177" key="GridCell.Tab.0.left/0.25.1792.1021@0.25.1792.1021" timestamp="1647597814003" />
-    <state width="1750" height="228" key="GridCell.Tab.0.left/0.25.1792.1024@0.25.1792.1024" timestamp="1648016756538" />
-    <state width="1750" height="228" key="GridCell.Tab.0.right" timestamp="1648016756539">
-      <screen x="0" y="25" width="1792" height="1024" />
-    </state>
-    <state width="1750" height="290" key="GridCell.Tab.0.right/0.25.1792.1010@0.25.1792.1010" timestamp="1647588380241" />
-    <state width="1750" height="288" key="GridCell.Tab.0.right/0.25.1792.1013@0.25.1792.1013" timestamp="1647590873976" />
-    <state width="1750" height="317" key="GridCell.Tab.0.right/0.25.1792.1015@0.25.1792.1015" timestamp="1647830195197" />
-    <state width="1750" height="317" key="GridCell.Tab.0.right/0.25.1792.1017@0.25.1792.1017" timestamp="1647602485881" />
-    <state width="1750" height="317" key="GridCell.Tab.0.right/0.25.1792.1019@0.25.1792.1019" timestamp="1647602447355" />
-    <state width="1750" height="177" key="GridCell.Tab.0.right/0.25.1792.1021@0.25.1792.1021" timestamp="1647597814004" />
-    <state width="1750" height="228" key="GridCell.Tab.0.right/0.25.1792.1024@0.25.1792.1024" timestamp="1648016756539" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="README.md" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
   </component>
 </project>
